@@ -11,6 +11,5 @@ run:
 	docker run -d --name my-mysql-container -p 3306:3306 my-mysql-container
 
 clean:
-	docker stop mysql-casedb
-	docker rm mysql-casedb
-	docker rmi my-mysql
+	docker stop my-mysql-container
+	docker rm my-mysql-container
