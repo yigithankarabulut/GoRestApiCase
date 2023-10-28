@@ -19,8 +19,8 @@ PUT     /plan/update/?planNumber=?
 DELETE  /plan/delete/?planNumber=?
 
 GET     /plan/listAll
-POST    /plan/listWeekly/
-POST    /plan/listMonthly?lastweek=?
+POST    /plan/listWeekly/?lastweek=?
+POST    /plan/listMonthly
 ```
 
 ## Json Templates
